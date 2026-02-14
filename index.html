@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2main</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-slate-950 text-slate-50 min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <div class="p-20 max-w-4xl mx-auto space-y-8">
+        <header class="space-y-2">
+            <h1 class="text-4xl font-black tracking-tighter">2main</h1>
+            <p class="text-slate-400 font-medium">Scaffolded with OpenEditor</p>
+        </header>
+        <nav class="flex gap-4 p-4 bg-white/5 rounded-2xl border border-white/10">
+            <a href="/" class="px-4 py-2 rounded-xl border border-white/5 hover:bg-white/5 transition-all text-sm font-bold">Global Overview</a>
+            <a href="/analytics" class="px-4 py-2 rounded-xl border border-white/5 hover:bg-white/5 transition-all text-sm font-bold">Metrics Explorer</a>
+            <a href="/users" class="px-4 py-2 rounded-xl border border-white/5 hover:bg-white/5 transition-all text-sm font-bold">Permission Manager</a>
+            <a href="/billing" class="px-4 py-2 rounded-xl border border-white/5 hover:bg-white/5 transition-all text-sm font-bold">Revenue Dashboard</a>
+            <a href="/settings/api" class="px-4 py-2 rounded-xl border border-white/5 hover:bg-white/5 transition-all text-sm font-bold">Developer Portal</a>
+        </nav>
+        <main class="aspect-video rounded-3xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 border border-white/5 flex items-center justify-center">
+            <p class="text-sm font-bold uppercase tracking-[0.3em] opacity-20">Preview Workspace</p>
+        </main>
+    </div>
+  </body>
+</html>

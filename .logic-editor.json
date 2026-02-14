@@ -1,0 +1,39 @@
+{
+    "name": "2main",
+    "type": "react",
+    "port": 5173,
+    "runCommand": "bun dev",
+    "location": "/Users/theone/Documents/GitHub/2main",
+    "routes": [
+        {
+            "path": "/",
+            "label": "Global Overview",
+            "states": [
+                {
+                    "label": "Standard View",
+                    "query": ""
+                },
+                {
+                    "label": "Critical Alerts",
+                    "query": "?alerts=on"
+                }
+            ]
+        },
+        {
+            "path": "/analytics",
+            "label": "Metrics Explorer"
+        },
+        {
+            "path": "/users",
+            "label": "Permission Manager"
+        },
+        {
+            "path": "/billing",
+            "label": "Revenue Dashboard"
+        },
+        {
+            "path": "/settings/api",
+            "label": "Developer Portal"
+        }
+    ]
+}
